@@ -1,3 +1,5 @@
+import kotlin.math.pow
+
 fun main(args: Array<String>) {
     /*var num1 = readln();
     var num2 = readln();
@@ -39,10 +41,24 @@ print("Dame el radio de una circunferencia")
     hipotenusa = Math.sqrt(hipotenusa);
     println("La hipotenusa es $hipotenusa")
 */
-
+/*
     println("Dame un radio para calcular el volumen de una esfera")
     val radio = readln().toDouble();
+    val volumen = (4/3)*Math.PI* radio.pow(3.0);
+    println("El volumen de la esfera es $volumen")
 
+
+    println("Dame el primer lado")
+    val lado1 = readln().toDouble();
+    println("Dame el segundo lado")
+    val lado2 = readln().toDouble();
+    println("Dame el tercer lado")
+    val lado3 = readln().toDouble();
+    val semiperimetro=(lado1+lado2+lado3)/2;
+    val area = Math.sqrt(semiperimetro*(semiperimetro-lado1)*(semiperimetro-lado2)*(semiperimetro-lado3));
+    println("El area del triangulo es $area")
+    */
 
 }
+
 
