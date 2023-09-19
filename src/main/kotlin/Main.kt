@@ -1,4 +1,4 @@
-import kotlin.math.pow
+
 
 fun main(args: Array<String>) {
     /*var num1 = readln();
@@ -58,6 +58,9 @@ print("Dame el radio de una circunferencia")
     val area = Math.sqrt(semiperimetro*(semiperimetro-lado1)*(semiperimetro-lado2)*(semiperimetro-lado3));
     println("El area del triangulo es $area")
     */
+    println("Dame un número de 3 cifras y te las separo")
+    val numero= readln().toInt();
+
 
 }
 
